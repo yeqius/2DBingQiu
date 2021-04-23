@@ -11,6 +11,7 @@ public class LocatPar : MonoBehaviour
     private Vector3 CloseDir;
     private float x, y;
     private bool expland=false,firstexpland=true;
+    private bool ex = true;
     void Start()
     {
         

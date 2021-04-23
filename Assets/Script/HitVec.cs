@@ -6,11 +6,12 @@ public class HitVec : MonoBehaviour
 {
     Vector3 NorVector;
     public GameObject hitBallVecDir;
-    private float rotaZ;
+  
     public ControlPlayer controlPlayer = ControlPlayer.Null;
     private float angle1,angle2;
     public GameObject hitAnima;
     private Animator hitAnimator;
+    private float rotaZ;
     // Start is called before the first frame update
     void Start()
     {
